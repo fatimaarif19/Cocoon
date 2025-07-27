@@ -1,7 +1,12 @@
-export default function App() {
+import React from 'react';
+import BackdropPage from './theme.jsx'; 
+
+function App() {
   return (
-    <h1 className="text-red-500 underline">
-      Hello world!
-    </h1>
-  )
+    <div className="App">
+      <BackdropPage />
+    </div>
+  );
 }
+
+export default App;
